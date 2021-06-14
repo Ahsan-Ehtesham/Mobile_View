@@ -11,7 +11,7 @@
   left: -250px;
   height: 100vh;
   z-index: 999;
-  background: #fc329a;
+  background: #cc0063;
   color: #fff;
   transition: all 0.3s;
   overflow-y: scroll;
@@ -51,8 +51,12 @@
   left: 0;
 }
 
+.navbar {
+  background-color: #3400b5;
+}
+
 .navbar .icon {
-  color: #fc329a;
+  color: #cc0063;
 }
 
 .navbar .label-warning {
@@ -89,11 +93,11 @@
 }
 
 .container .row #card {
-  box-shadow: #fc329a;
+  box-shadow: #cc0063;
 }
 
 .container .row #card a:link, .container .row #card a:visited {
-  background-color: #fc329a;
+  background-color: #cc0063;
   color: white;
   padding: 10px 20px;
   text-align: center;

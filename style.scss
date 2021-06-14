@@ -1,3 +1,7 @@
+$primary-color:#cc0063;
+$secondary-color:#3400b5;
+
+
 * {
   margin: 0;
   padding: 0;
@@ -11,7 +15,7 @@
   left: -250px;
   height: 100vh;
   z-index: 999;
-  background: #fc329a;
+  background: $primary-color;
   color: #fff;
   transition: all 0.3s;
   overflow-y: scroll;
@@ -53,8 +57,9 @@
 }
 
 .navbar {
+  background-color: $secondary-color;
   .icon {
-    color: #fc329a;
+    color: $primary-color;
   }
   .label-warning {
     position: absolute;
@@ -91,11 +96,11 @@
 .container {
   .row {
     #card {
-      box-shadow: #fc329a;
+      box-shadow: $primary-color;
       a {
         &:link,
         &:visited {
-          background-color: #fc329a;
+          background-color: $primary-color;
           color: white;
           // border: 2px solid #aa256a;
           padding: 10px 20px;
@@ -106,7 +111,7 @@
 
         &:hover,
         &:active {
-          background-color: #504ed6;
+          background-color:#504ed6;
           color: white;
         }
       }
